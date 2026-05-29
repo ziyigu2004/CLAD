@@ -1,11 +1,12 @@
 # Cluster-Level Attention-Guided Parallel Decoding for Masked Diffusion Language Models
 
+[![arXiv](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2605.29607)
+
 <PROJECT_NAME> is an open-source implementation for <briefly describe your task/method>.
 
 This repository provides the code for environment setup, model running, evaluation, and reproduction of the main experiments.
 
-<!-- You can add an overview figure here later -->
-<!-- ![overview](assets/overview.png) -->
+[overview](assets/overview.png)
 
 ## 🚀 Introduction
 
