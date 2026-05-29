@@ -1,8 +1,14 @@
 # Cluster-Level Attention-Guided Parallel Decoding for Masked Diffusion Language Models
 
-[**arXiv:2605.29607**](https://arxiv.org/abs/2605.29607)
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.29607">
+    <img src="https://img.shields.io/badge/arXiv-2605.29607-b31b1b.svg" alt="arXiv">
+  </a>
+</p>
 
-![overview](assets/overview.png)
+<p align="center">
+  <img src="asset/overview.png" alt="overview" width="850">
+</p>
 
 ## 🚀 Introduction
 
