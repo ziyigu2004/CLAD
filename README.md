@@ -1,4 +1,4 @@
-# <PROJECT_NAME>
+# Cluster-Level Attention-Guided Parallel Decoding for Masked Diffusion Language Models
 
 <PROJECT_NAME> is an open-source implementation for <briefly describe your task/method>.
 
@@ -15,10 +15,13 @@ This repository provides the code for environment setup, model running, evaluati
 - Modular code structure for future extension.
 - Evaluation scripts are provided for reproducing experimental results.
 
-## 🔧 Installation
-
-We recommend using Conda to create an isolated Python environment.
+## 🔧 Quick Start
 
 ```bash
+https://github.com/ziyigu2004/CLAD.git
+cd CLAD
+
 conda create -n CLAD python=3.10
 conda activate CLAD
+
+pip install -r requirements.txt
