@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="asset/overview.png" alt="overview" width="850">
+  <img src="asset/overview.png" alt="overview" width="900">
 </p>
 
 ## 🚀 Introduction
