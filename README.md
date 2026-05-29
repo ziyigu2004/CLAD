@@ -4,6 +4,10 @@
   <a href="https://arxiv.org/abs/2605.29607">
     <img src="https://img.shields.io/badge/arXiv-2605.29607-b31b1b.svg" alt="arXiv">
   </a>
+  &nbsp;
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/ziyigu2004/CLAD.svg" alt="License">
+  </a>
 </p>
 
 <p align="center">
@@ -29,7 +33,7 @@ conda activate CLAD
 pip install -r requirements.txt
 ```
 
-## ✨ Eval
+## ✨ Inference and Evaluation
 
 We provide evaluation scripts for the main experiments. You can reproduce the results directly with the following commands.
 
@@ -62,7 +66,7 @@ The experiments cover both mathematical reasoning and code generation benchmarks
 CLAD shows strong decoding efficiency across different masked diffusion language models and benchmarks, achieving substantial speedups over Vanilla decoding while maintaining comparable task accuracy in most settings.
 
 <p align="center">
-  <img src="asset/main_result.png" alt="main result" width="900">
+  <img src="asset/main_results.png" alt="main result" width="900">
 </p>
 
 ## 🎓 Citation
@@ -70,7 +74,7 @@ CLAD shows strong decoding efficiency across different masked diffusion language
 Thank you for citing our work if you find this repository helpful!
 
 ```bibtex
-@misc{qi2026clad,
+@misc{qi2026clusterlevelattentionguidedparalleldecoding,
       title={Cluster-Level Attention-Guided Parallel Decoding for Masked Diffusion Language Models}, 
       author={Heqiang Qi and Wei Huang and Mingyuan Bai and Xiangming Meng},
       year={2026},
@@ -83,4 +87,4 @@ Thank you for citing our work if you find this repository helpful!
 
 ## 🙏 Acknowledgements
 
-We would like to thank the authors of LLaDA, Dream, Fast-dLLM, KLASS, DAPD, and DAWN for their excellent work and open-source contributions. We also thank the maintainers of the evaluation benchmarks and toolkits used in this project.
+We would like to thank the authors of [LLaDA](https://github.com/ML-GSAI/LLaDA), [Dream](https://github.com/DreamLM/Dream), [Fast-dLLM](https://github.com/NVlabs/Fast-dLLM), and [DAWN](https://github.com/lizhuo-luo/DAWN) for their excellent work and open-source contributions. We also thank the maintainers of the evaluation benchmarks and toolkits used in this project.
