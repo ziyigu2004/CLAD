@@ -74,7 +74,7 @@ CLAD shows strong decoding efficiency across different masked diffusion language
 Thank you for citing our work if you find this repository helpful!
 
 ```bibtex
-@misc{qi2026clusterlevelattentionguidedparalleldecoding,
+@misc{clad,
       title={Cluster-Level Attention-Guided Parallel Decoding for Masked Diffusion Language Models}, 
       author={Heqiang Qi and Wei Huang and Mingyuan Bai and Xiangming Meng},
       year={2026},
