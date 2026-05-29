@@ -1,15 +1,14 @@
 # Cluster-Level Attention-Guided Parallel Decoding for Masked Diffusion Language Models
 
-[![arXiv](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2605.29607)
+[**arXiv:2605.29607**](https://arxiv.org/abs/2605.29607)
 
-<PROJECT_NAME> is an open-source implementation for <briefly describe your task/method>.
-
-This repository provides the code for environment setup, model running, evaluation, and reproduction of the main experiments.
-
-[overview](assets/overview.png)
+![overview](assets/overview.png)
 
 ## 🚀 Introduction
 
+We propose **CLAD**, a training-free parallel decoding method for masked diffusion language models.
+
+CLAD speeds up MDLM inference by moving the decoding unit from individual tokens to reliable spans. At each denoising step, it groups neighboring high-confidence masked positions into cluster-level candidates, then uses attention information from the same forward pass to avoid committing strongly dependent clusters together.
 
 
 ## 🔧 Quick Start
