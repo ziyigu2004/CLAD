@@ -4,10 +4,6 @@
   <a href="https://arxiv.org/abs/2605.29607">
     <img src="https://img.shields.io/badge/arXiv-2605.29607-b31b1b.svg" alt="arXiv">
   </a>
-  &nbsp;
-  <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/ziyigu2004/CLAD.svg" alt="License">
-  </a>
 </p>
 
 <p align="center">
